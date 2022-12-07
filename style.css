@@ -259,7 +259,7 @@ h4:hover {
   color: black;
 }
 
-/*MYWORK*/
+/*MYWORK1*/
 .topbar.topbar-mywork {
   background-image: linear-gradient(#141e30, #243b55, #ee0b0b);
   display: flex;
@@ -319,7 +319,7 @@ h4:hover {
   color: rgb(12, 113, 12);
   background-color: #859541;
   transition: all 300ms ease-in-out;
-  border-radius: 50px 20px; 
+  border-radius: 50px 20px;
 }
 .nav.nav-mywork2 .nav-link.active:hover {
   color: rgb(8, 8, 8);
@@ -328,8 +328,8 @@ h4:hover {
 /*MYWORK3*/
 .topbar.topbar-mywork3 {
   background-image: linear-gradient(#1d4350, #97b7c2);
-
-  box-shadow: 1px 2px rgb(186, 15, 15);
+  border-radius: 100px;
+  box-shadow: 10px 7px rgb(116, 111, 111);
   margin-top: 20px;
   display: flex;
   justify-content: stretch;
@@ -355,13 +355,98 @@ h4:hover {
 }
 .nav.nav-mywork3 .nav-link.active {
   color: #9609f4;
-  background-color: #419587;
+  background-color: #e9590c;
   transition: all 300ms ease-in-out;
-  border: 5px saddlebrown;
+  border: 5px rgb(9, 219, 75);
 }
 .nav.nav-mywork3 .nav-link.active:hover {
   color: black;
   background-color: #1f803a;
-  transform: translate(-10px, -15px) skew(5deg, 7deg);
+  transform: translate(-10px, -15px);
+}
+/*MYWORK4*/
+.topbar.topbar-mywork4 {
+  background-image: linear-gradient(#000000, #434343);
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(9, 118, 191);
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.topbar.topbar-mywork4 .nav-link {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-transform: initial;
+  letter-spacing: px;
+  font-size: 25px;
+
+  padding-left: 5px;
+  display: flex;
+  box-shadow: inset -9px -9px 3px rgba(4, 66, 253, 0.3);
+  transition: all 500ms ease-in-out;
+}
+.topbar.topbar-mywork4 .nav-link:hover {
+  color: #ef0202;
+  background-color: rgb(10, 10, 10);
+}
+.nav.nav-mywork4 .nav-link.active {
+  color: #9609f4;
+  background-color: #e9590c;
+  transition: all 300ms ease-in-out;
+  border: 5px rgb(9, 219, 75);
+}
+.nav.nav-mywork4 .nav-link.active:hover {
+  color: black;
+  background-color: #1f803a;
+  transform: translate(-10px, 15px);
+}
+
+/*MYWORK5*/
+
+.topbar.topbar-mywork5 {
+  background-image: linear-gradient(#355C7D, #C06C84);
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(3, 3, 3);
+  margin-top: 40px;
+  display: flex;
+  
+  
+
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+.topbar.topbar-mywork5 .nav-link {
+  color: rgb(6, 239, 204);
+  margin-right: 40px;
  
+
+  letter-spacing: 5 px;
+  font-size: 25px;
+
+  
+  display: flex;
+  
+  box-shadow: inset 5px 3px 2px rgba(4, 66, 253, 0.3);
+  
+  transition: all 800ms ease-in-out;
+}
+.topbar.topbar-mywork5 .nav-link:hover {
+  color: #efef02;
+  background-color: rgb(209, 176, 176);
+}
+.nav.nav-mywork5 .nav-link.active {
+  color: #00ff2a;
+  background-color: #391604;;
+  transition: all 300ms ease-in-out;
+  border-radius: 20px 15px 25px 30px;
+}
+.nav.nav-mywork5 .nav-link.active:hover {
+  color: black;
+  background-color: #1f803a;
+  transform: translate(10px, -15px);
 }
